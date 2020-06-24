@@ -1,7 +1,10 @@
 # Celebrity Face Classification
 
+ The .ipynb notebook [CelebrityFaceClassification_Transfer_Learning.ipynb](CelebrityFaceClassification_Transfer_Learning.ipynb) can be run directly on Google Colab that downloads the required dataset and performs Classification after extracting the facial information from images using harr cascade xml. 
+
+
 ## Classification:
-This project is done as a sub part of the second project of the course Computer Vision at KU Leuven. The .ipynb notebook can be run directly on Google Colab. 
+This project is done as a sub part of the second project of the course Computer Vision at KU Leuven.
 A VGG16 Model is trained on the facial dataset of Hollwywood celebrities available at http://www.robots.ox.ac.uk/~vgg/data/vgg_face/vgg_face_dataset.tar.gz
 
 The VGG Model is then trained on some classes of selected celebrities and their look alikes using transfer learning. The pre-trained weights (VGG FACE) are loaded directly from the keras library.
