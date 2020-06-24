@@ -4,4 +4,6 @@ A VGG16 Model is trained on the facial dataset of Hollwywood celebrities availab
 
 The VGG Model is then trained on some classes of selected celebrities and their look alikes using transfer learning. The pre-trained weights (VGG FACE) are loaded directly from the keras library.
 
+![alt-text-1](../outImages/learningCurves.png "Training Accuracy") ![alt-text-2](../outImages/loss.png "Training Loss")
+
 
